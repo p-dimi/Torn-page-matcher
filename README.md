@@ -18,6 +18,6 @@ All saved files are python dictionaries saved through pickle.
 
 
 All images fed to the module must already be pre-processed to a minor degree (cropped & perspective warped for ideal results), and should look more or less like this:
-![sample image](sample_images/note.jpg)
+![sample image](sample_images/tear.png)
 
 The module will further process the image to extract the tears' peaks and valleys and turn those into an identity vector, which can be compared with other vectors representing other tears.
